@@ -1,0 +1,67 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALCULATOR"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="90dp"
+        android:layout_marginVertical="30dp"
+        android:text="ADDITION"
+        android:id="@+id/a"
+        android:background="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="90sp"
+        android:id="@+id/s"
+        android:text="SUBTRACTION"
+        android:background="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="90dp"
+        android:layout_marginVertical="30dp"
+        android:text="MULTIPLICATION"
+        android:id="@+id/m"
+        android:background="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="90sp"
+        android:id="@+id/d"
+        android:text="DIVISION"
+        android:background="@color/black"/>
+
+</LinearLayout>
+
+
+
+
